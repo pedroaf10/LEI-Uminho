@@ -1,5 +1,5 @@
 # Engenharia Informática - Universidade do Minho
-
+Projetos realizados em diversas cadeira do curso de Engenharia Informática na Universidade do Minho.
 ## 1º Ano 
 ### - Laboratórios Informática 2
 
