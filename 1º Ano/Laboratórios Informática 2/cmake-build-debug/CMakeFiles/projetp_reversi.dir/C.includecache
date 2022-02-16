@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/pedro/OneDrive/Desktop/LI2_PL8_35/projetp reversi/estado.c
+stdio.h
+-
+estado.h
+C:/Users/pedro/OneDrive/Desktop/LI2_PL8_35/projetp reversi/estado.h
+
+C:/Users/pedro/OneDrive/Desktop/LI2_PL8_35/projetp reversi/estado.h
+
+C:/Users/pedro/OneDrive/Desktop/LI2_PL8_35/projetp reversi/main.c
+stdio.h
+-
+estado.h
+C:/Users/pedro/OneDrive/Desktop/LI2_PL8_35/projetp reversi/estado.h
+ctype.h
+-
+stdlib.h
+-
+

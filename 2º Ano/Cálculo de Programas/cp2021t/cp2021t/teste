@@ -1,0 +1,194 @@
+
+
+length = ⦇ [ zero, succ . 2 ] ⦈
+ {  propriedade universal-cata }
+length in= [ zero, succ  2 ] (id + id length)
+
+<avg,length> = ⦇ [b, q] ⦈
+
+k = ⦇ g ⦈ <=> k . in = g . F k
+
+
+<avg.in,len.in> = [b,q] . (id . id + <avg.pi2,len.pi2>) 
+
+
+avg.in = [b,q]
+
+len.in = id + <avg.pi2,len.pi2>                               (id . id + <avg.pi2,len.pi2>) 
+
+
+avg_aux = <avg,len>
+(| [b,q] |)  = <avg,len> 
+(| [b,q] |)  = < pi1 . avg_aux, len>
+
+
+
+
+< pi1 . avg_aux, len>x
+
+((pi1 . avg_aux)x, k)
+(pi1(avg_aux x),k)
+(pi1((| [b,q] |) x),k)
+
+
+
+for b i =  ⦇  [const i, b]  ⦈
+
+(| [b,q] |) = < pi1 . avg_aux, len>
+
+pi1 . ⦇ [b,q] ⦈ =  pi1 . avg_aux  && 
+pi2 . ⦇ [b,q] ⦈ = len
+
+
+  ⟨impar,par⟩ = ⦇  [const (False,True), swap]  ⦈
+
+ {   for b i =  ⦇  [const i, b]  ⦈ para i := (False,True) e b :=swap} 
+
+for swap (False,True) =  ⦇  [const (False,True), swap]  ⦈ 
+
+
+
+X + (N + (Bin + Un))
+
+
+
+avg_aux = ⦇[b,q]⦈
+≡    { avg_aux = ⟨avg,length⟩ }
+   ⟨avg,length⟩ = ⦇[b,q]⦈
+
+≡    { Inferir tipo de b e q }
+   ⟨avg,length⟩ = ⦇[⟨b1,b2⟩,⟨q1,q2⟩]⦈
+
+≡    { Lei da troca }
+   ⟨avg,length⟩ = ⦇⟨[b1,q1],[b2,q2]⟩⦈
+
+≡    { Fokkinga }
+   avg . in = [b1,q1] . F ⟨avg,length⟩  && length . in = [b2,q2] . F ⟨avg,length⟩
+
+≡    { Listas: F f = id + id  f}
+   avg . in = [b1,q1] . (id + id x ⟨avg,length⟩)
+   length . in = [b2,q2] . (id + id x ⟨avg,length⟩)
+
+≡    { in = [nil, cons] }
+    avg . [nil, cons] = [b1,q1] . (id + id x ⟨avg,length⟩)
+    length . [nil, cons] = [b2,q2] . (id + id x ⟨avg,length⟩)
+
+
+≡   { fusão-+ lado esquerdo; absorção-+ }
+    [avg.nil , avg.cons ] = [b1 . id, q1 . id x ⟨avg,length⟩]
+    [length.nil , length.cons ] = [b2 . id, q2 . id x ⟨avg,length⟩]
+
+≡   { Natural - id }
+    [avg.nil , avg.cons ] = [b1, q1 . id x ⟨avg,length⟩]
+    [length.nil , length.cons ] = [b2, q2 . id x ⟨avg,length⟩]
+
+≡   { Eq -+ }
+    avg.nil = b1
+    avg.cons = q1 . id x ⟨avg,length⟩
+
+    length.nil = b2
+    length.cons = q2 . id x ⟨avg,length⟩
+
+≡   { Def-comp 2x }
+    avg (nil n) = b1 n
+    avg (cons (a,b)) = q1(id x ⟨avg,length⟩)(a,b)
+
+    length (nil n) = b2 n
+    length (cons (a,b)) = q2(id x ⟨avg,length⟩)(a,b)
+
+≡   { Def-x }
+    avg (nil n) = b1 n
+    avg (cons (a,b)) = q1(id a, ⟨avg,length⟩ b)
+
+    length (nil n) = b2 n
+    length (cons (a,b)) = q2(id a x ⟨avg,length⟩ b)
+
+≡   {  }
+    avg (nil n) = b1 n
+    avg (cons (a,b)) = q1(a, (avg b, length b))
+
+    length (nil n) = b2 n
+    length (cons (a,b)) = q2(a, (avg b, length b))
+
+≡   {  }
+    avg [] = b1 n
+    avg (a:b) = q1(a, (avg b, length b))
+
+    length [] = b2 n
+    length (a:b) = q2(a, (avg b, length b))
+
+Daqui inferimos :
+
+b1 = Const 0
+q1 = pi1 -|- (pi1 . pi2)
+
+b2 = Const 0
+q2 = 1 -|- (pi2 . pi2)
+
+
+avg aux = ⦇[⟨b1,b2⟩,⟨q1,q2⟩]⦈
+
+avg_aux (a,b) = cataList(Either (split(Const 0) (Const 0)) (split (p1 -|- (p1 . p2)) (1 -|- (p2 . p2))))
+
+Either (a) (b) -> [a,b]
+Split (a) (b) -> ⟨a,b⟩
+
+
+
+
+
+
+
+
+≡   { Def -x }
+    avg.nil = b1
+    avg.cons = q1 . ⟨id.pi1,⟨avg,length⟩.pi2⟩
+
+    length.nil = b2
+    length.cons = q2 . ⟨id.pi1,⟨avg,length⟩.pi2⟩
+
+≡   { Natural - id }
+    avg.nil = b1
+    avg.cons = q1 . ⟨pi1,⟨avg,length⟩.pi2⟩
+
+    length.nil = b2
+    length.cons = q2 . ⟨pi1,⟨avg,length⟩.pi2⟩
+
+≡   { Introdução de variáveis }
+    avg.(nil n) = b1 n
+    avg.(cons n) = q1 n . ⟨pi1,⟨avg,length⟩.pi2⟩ n
+
+    length.(nil n) = b2 n
+    length.(cons n) = q2 n . ⟨pi1,⟨avg,length⟩.pi2⟩ n
+
+≡   { Def-split }
+    avg.(nil n) = b1 n
+    avg.(cons n) = q1 n . (pi1 n,(⟨avg,length⟩.pi2) n)
+
+    length.(nil n) = b2 n
+    length.(cons n) = q2 n . (pi1 n,(⟨avg,length⟩.pi2) n)
+
+≡   { Def-split }
+    avg.(nil n) = b1 n
+    avg.(cons n) = q1 n . (pi1 n,(⟨avg,length⟩.pi2) n)
+
+    length.(nil n) = b2 n
+    length.(cons n) = q2 n . (pi1 n,(⟨avg,length⟩.pi2) n)
+
+
+
+    either g1 (either g2 (either g3 g4)) . outExpAr where
+  g1 = 1
+  g2 a = ExpAr a
+  g3 (+, (a,b)) = (Sum, (a,b))
+  g2 (*, (a,b)) = (Product, (a, b))
+  g4 (negate, a) = (Negate, a)
+  g4 (E, a) = expd a
+
+   either g1 (either g2 (either g3 g4)) where
+  g1 = const a
+  g2 a = a
+  g3 (Sum, (a, b)) = a + b
+  g3 (Product, (a, b)) = a * b
+  g4 (Negate, a) = - a
+  g4 (E, a) = expd a

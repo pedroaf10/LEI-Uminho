@@ -1,0 +1,110 @@
+    (eval_exp a) · inExpAr = g_eval_exp · F (eval_exp a)
+
+≡   { Def-inExpAr }
+    (eval_exp a) · [X,[N,[bin,Ûn]]] = g_eval_exp · F (eval_exp a)
+
+≡   { Def-F(eval_exp) }
+    (eval_exp a) · [X,[N,[bin,Ûn]]] = g_eval_exp · ( id + (id + (id x (eval_exp a x eval_exp a) + id x eval_exp a )))
+
+≡   { Inferindo que g_eval_exp é [g1,[g2,[g3,g4]]] }
+    (eval_exp a) · [X,[N,[bin,Ûn]]] = [g1,[g2,[g3,g4]]]  · ( id + (id + (id x (eval_exp a x eval_exp a) + id x eval_exp a )))
+
+≡   { Fusão -+ à esquerda}
+    [(eval_exp a) · X, [(eval_exp a) · N,(eval_exp a) · [bin,Ûn]]] = [g1,[g2,[g3,g4]]]  · ( id + (id + (id x (eval_exp a x eval_exp a) + id x eval_exp a )))
+
+
+≡   { Absorção -+ à direita 1x}
+    [(eval_exp a) · X, [(eval_exp a) · N,[(eval_exp a) . bin,(eval_exp a) .Ûn]]] = [g1 . id, [g2,[g3,g4]] . (id + (id x (eval_exp a x eval_exp a) + id x eval_exp a ))]
+
+≡   { Absorção -+ à direita 1x}
+    [(eval_exp a) · X, [(eval_exp a) · N,[(eval_exp a) . bin,(eval_exp a) .Ûn]]] = [g1 . id, [g2 . id, [g3,g4] . (id x (eval_exp a x eval_exp a) + id x eval_exp a ) ]]
+
+≡   { Absorção -+ à direita 1x}
+    [(eval_exp a) · X, [(eval_exp a) · N,[(eval_exp a) . bin,(eval_exp a) .Ûn]]] = [g1 . id, [g2 . id, [g3 . id x (eval_exp a x eval_exp a) , g4 . id x eval_exp a  ]]]
+
+≡   { Naturalid 2x }
+    [(eval_exp a) · X, [(eval_exp a) · N,[(eval_exp a) · bin, (eval_exp a) ·Ûn]]]= [g1, [g2, [g3 . id x (eval_exp a x eval_exp a) , g4 . id x eval_exp a  ]]]
+    
+≡   { Eq -+ }
+    (eval_exp a) · X = g1 
+    (eval_exp a) · N = g2 
+    (eval_exp a) · bin = g3 . id x (eval_exp a x eval_exp a)
+    (eval_exp a) · Ûn = g4 . id x eval_exp a
+
+≡   { Def-comp à esquerda e a direita }
+    eval_exp a X = g1 
+    eval_exp a N = g2 
+    eval_exp a bin = g3 (id x (eval_exp a x eval_exp a))
+    eval_exp a Ûn = g4 (id x eval_exp a)
+
+≡   { Igualdade Extensional }
+    eval_exp a X = g1 
+    eval_exp a N b = g2 
+    eval_exp a bin(op(b,c))= g3 (id x (eval_exp a x eval_exp a))
+    eval_exp a Ûn op b = g4 (id x eval_exp a)
+
+≡    
+    a = g1 
+    b = g2 
+    eval_exp a (Bin BinOp b c)= g3 (id x (eval_exp a x eval_exp a))
+    eval_exp a (Un UnOp b) = g4 (id x eval_exp a)
+
+≡ 
+    a = g1 
+    b = g2 
+    eval_exp a (Bin Sum b c)= g3 (id x (eval_exp a x eval_exp a))
+    eval_exp a (Bin Product b c)= g3 (id x (eval_exp a x eval_exp a))
+    eval_exp a (Un Negate b) = g4 (id x eval_exp a)
+    eval_exp a (Un E b) = g4 (id x eval_exp a)
+
+≡ 
+    a = g1 
+    b = g2 
+    Sum b c = g3 (id x (eval_exp a x eval_exp a))
+    Product b c= g3 (id x (eval_exp a x eval_exp a))
+    Negate b = g4 (id x eval_exp a)
+    E b = g4 (id x eval_exp a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+≡ 
+    a = g1 
+    b = g2 
+    eval_exp a (Bin op a b)= g3 (id x (eval_exp a x eval_exp a))
+    eval_exp a (Ûn op b) = 
+
+    g1 = a
+    g2 = a
+    g3 =
+    g4 = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //Floating a1 = 
+    a1 - Either a2 (Either a1 (Either(BinOp,(a1,a1)(UnOp, a1))))
+    [Either b (Either a (Either(BinOp,(a,a)(UnOp, a))))] . a
+    [b + (a +((BinOp(a,a) + (UnOp a))))] . a

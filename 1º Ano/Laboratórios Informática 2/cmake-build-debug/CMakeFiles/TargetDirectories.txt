@@ -1,0 +1,3 @@
+C:/Users/pedro/OneDrive/Desktop/LI2_PL8_35/projetp reversi/cmake-build-debug/CMakeFiles/projetp_reversi.dir
+C:/Users/pedro/OneDrive/Desktop/LI2_PL8_35/projetp reversi/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pedro/OneDrive/Desktop/LI2_PL8_35/projetp reversi/cmake-build-debug/CMakeFiles/rebuild_cache.dir

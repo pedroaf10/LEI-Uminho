@@ -1,0 +1,38 @@
+
+
+avg_aux = <avg,len>
+(| [b,q] |)  = <avg,len> 
+(| [b,q] |)  = < pi1 . avg_aux, len>
+
+
+
+
+< pi1 . avg_aux, len>x
+
+((pi1 . avg_aux)x, k)
+(pi1(avg_aux x),k)
+(pi1((| [b,q] |) x),k)
+
+
+
+for b i =  ⦇  [const i, b]  ⦈
+
+(| [b,q] |) = < pi1 . avg_aux, len>
+
+pi1 . ⦇ [b,q] ⦈ =  pi1 . avg_aux  && 
+pi2 . ⦇ [b,q] ⦈ = len
+
+
+  ⟨impar,par⟩ = ⦇  [const (False,True), swap]  ⦈
+
+ {   for b i =  ⦇  [const i, b]  ⦈ para i := (False,True) e b :=swap} 
+
+for swap (False,True) =  ⦇  [const (False,True), swap]  ⦈ 
+
+
+
+X + (N + (Bin + Un))
+
+
+
+

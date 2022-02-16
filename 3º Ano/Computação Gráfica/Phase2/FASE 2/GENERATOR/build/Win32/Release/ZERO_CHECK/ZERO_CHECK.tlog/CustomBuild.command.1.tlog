@@ -1,0 +1,10 @@
+^C:\USERS\PEDRO\ONEDRIVE\DOCUMENTOS\UMINHO\UMINHO\3ANO\2 SEMESTRE\CG\TRABALHO\PHASE2_G30\FASE 2\GENERATOR\BUILD\CMAKEFILES\9C9CBE3E0284763E485BC92C9D0BAEA1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/pedro/OneDrive/Documentos/Uminho/Uminho/3ano/2 Semestre/CG/trabalho/Phase2_G30/FASE 2/GENERATOR" "-BC:/Users/pedro/OneDrive/Documentos/Uminho/Uminho/3ano/2 Semestre/CG/trabalho/Phase2_G30/FASE 2/GENERATOR/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/pedro/OneDrive/Documentos/Uminho/Uminho/3ano/2 Semestre/CG/trabalho/Phase2_G30/FASE 2/GENERATOR/build/trabalhoCG.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,52 @@
+﻿  Building Custom Rule C:/Users/pedro/OneDrive/Documentos/Uminho/Uminho/3ano/2 Semestre/CG/trabalho/Phase3_G30/GENERATOR/CMakeLists.txt
+  main.cpp
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(49,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(38,5): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getcwd. See online help for details.
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(88,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(102,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(110,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(111,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(202,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(203,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(204,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(205,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(206,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(207,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(208,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(209,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(210,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(211,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(212,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(213,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(293,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(477,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(554,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(560,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(561,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(562,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(563,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(596,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(597,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(828,15): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(829,15): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(881,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(987,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(1014,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(929,5): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getcwd. See online help for details.
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(1040,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(1046,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(1047,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(1053,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\main.cpp(1059,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  tinyxml2.cpp
+  Point.cpp
+  Generating Code...
+  trabalhoCG.vcxproj -> C:\Users\pedro\OneDrive\Documentos\Uminho\Uminho\3ano\2 Semestre\CG\trabalho\Phase3_G30\GENERATOR\build\Release\trabalhoCG.exe

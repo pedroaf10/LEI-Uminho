@@ -1,0 +1,7 @@
+calcLine :: NPoint -> (NPoint -> OverTime NPoint)
+calcLine = cataList h where
+  h = either nil g where 
+  g =
+  
+O g é parecido com isto : 
+either (nil, either ( nil, either concat (singl.lincar1d d x z , f y z)))

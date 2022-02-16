@@ -1,0 +1,23 @@
+int a
+int b
+int c
+int d
+int e
+a = scan()
+b = scan()
+c = scan()
+d = scan()
+if(a == b){
+    if(b==c){
+        if(c==d){
+            e = 1
+        }
+    }
+}
+if(e==1){
+    print("Quadrado!")
+    print(a+b)
+}
+if(e==0){
+    print("Nao Quadrado!")
+}

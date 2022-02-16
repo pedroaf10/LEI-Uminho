@@ -1,0 +1,36 @@
+sd_gen = split fun deriv where
+    fun = either g1 (either g2 (either g3 g4)) where
+        g1 = const X 
+        g2 = N 
+        g3 (binop, (a,b)) = Bin binop a b
+        g4 (unop, a) = Un unop a
+    deriv = either g1 (either g2 either(g3 g4)) where
+        g1 = const N 1
+        g2 = const N 0
+        g3 (Sum, ((a,b),(c,d))) = b + d
+        g3 (Product,((a,b),(c,d)) = (a * d) + (b * c)
+        g4 (E,(a,b)) = b
+        g4 (Negate,(a,b)) = negate b
+
+
+
+
+
+
+
+ad_gen v = split fun2 deriv2 where 
+    fun2 v = either g1 (either g2 (either g3 g4)) where
+          g1 = v
+          g2 a = a
+          g3 (Product (a, b)) = a * b
+          g3 (Sum, (a, b)) = a + b
+          g4 (E, a) = expd a
+          g4 (Negate, a) = negate a
+
+    deriv2 v = either g1 (either g2 either(g3 g4)) where
+            g1 = 1
+            g2 a = 0
+            g3 (Product ((a, b),(c, d))) = b + d
+            g3 (Sum, ((a, b),(c, d))) = a * d + b * c
+            g4 (E, (a, b)) = b * expd a
+            g4 (Negate, (a, b)) = negate b

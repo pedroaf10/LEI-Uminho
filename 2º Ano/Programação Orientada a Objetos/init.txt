@@ -1,0 +1,163 @@
+Utilizador:u0,José Alberto,41.733547,-7.457421,joseA@hotmail.com,Kgm34D
+Utilizador:u1,Sara Dias, 41.723273,-7.428154,saraD@hotmail.com,Lkf2D
+Utilizador:u2,Pedro Fernandes,41.735342,-7.503687,pedroF@gmail.com,asd23sA
+Utilizador:u3,Miguel Queiroz,41.739562,-7.504579,miguelQ@hotmail.com,aSwe2
+Utilizador:u4,João Chaves,41.753345,-7.524897,joaoC@outlook.com,jdASD2sa
+Utilizador:u5,Luis Pereira,41.751799,-7.496406,luisp@gmail.com,Jnfdsj3SD
+Utilizador:u6,Cíntia Cunha,41.750245,-7.490813,cintiaC@hotmail.com,aD3sgr
+Utilizador:u7,Ana Silva ,41.748650,-7.483088,anaS@gmail.com,oij5jJY
+Utilizador:u8,Albertina Costa,41.742998,-7.476450,albertinaC@clix.pt,SlJo4m
+Utilizador:u9,Filipe Morais,41.740058,-7.476794,filipeM@gmail.com,jHGjb5n
+Utilizador:u10,Diogo Lopo,41.736099,-7.479026,diogoL@hotmail.com,KFmslk23sld
+Utilizador:u11,Rui Tiago,41.731255,-7.471553,RT@gmail.com,nRtK34
+Utilizador:u12,Pedro Paiva,41.743342,-7.448929 ,pedroP@hotmail.com,PlOk4
+Voluntario:v0,Nuno Almeida,41.747825,-7.483738,3.3
+Voluntario:v1,Joana Santos,41.754371,-7.494415,2.9
+Voluntario:v2,Diana Branco,41.738917,-7.476339,3.2
+Voluntario:v3,Cláudio Coutinho,41.735462,-7.481876,5.0
+Voluntario:v4,Simão Pereira,41.743312,-7.512191,5.5
+Voluntario:v5,Rita Peixoto,41.741217,-7.476068,2.5
+Voluntario:v6,Joana Castro,41.733522,-7.467620,4.2
+Voluntario:v7,Ana Reis,41.749843,-7.472473,8.0
+Voluntario:v8,Flavia Lopes,41.743542,-7.465312,4.0
+Voluntario:v9,Henrique Lopes,41.739599,-7.472008,3.8
+Voluntario:v10,Flavio Carvalho,41.736742,-7.464888,6.0
+Voluntario:v11,Bruna Ribeiro,41.740899,-7.503012,4.5
+Transportadora:t0,UPS,41.760331,-7.486716,237669900,5.0,1.5,119.45
+Transportadora:t1,DHL,41.701531,-7.501304,219118698,10.0,1.1,198.6
+Transportadora:t2,CHRONOPOST,41.744958,-7.482913,290214696,7.0,1.3,135.65
+Transportadora:t3,CTT,41.741019,-7.469849,217604501,6.0,1.2,90.55
+Transportadora:t4,GLS,41.737023,-7.452800,209116153,6.0,1.4,96.34
+Loja:l0,E.Leclerc,41.732508,-7.468723
+Loja:l1,Armazens Europa,41.735209,-7.461835
+Loja:l2,Alto Tamega,41.745579,-7.468494
+Loja:l3,Continente Bom Dia,41.744423,-7.470078
+Loja:l4,Pingo Doce 1,41.741910,-7.473083
+Loja:l5,Mini Mercado,41.739718,-7.503200
+Loja:l6,Mini Preco,41.753773,-7.474373
+Loja:l7,Lidl,41.759492,-7.470371
+Loja:l8,Pingo Doce 2,41.759380,-7.468548
+Loja:l9,Continente,41.764204,-7.467468
+Encomenda:e0,u1,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e1,u2,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e2,u3,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e3,u4,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e4,u5,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e5,u6,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e6,u7,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e7,u8,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e8,u9,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e9,u10,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e10,u11,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e11,u12,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e12,u4,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e13,u3,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e14,u3,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e15,u6,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e16,u3,l2,95.36606,p0,queijo,0.250,3.59
+Encomenda:e17,u0,l2,95.36606,p0,queijo,0.250,3.59
+Produto:p0,queijo,0.250,3.59,false
+Produto:p1,pure de fruta,1.08,2.99,false
+Produto:p2,iogurte liquido,0.72,1.47,false
+Produto:p3,iogurte grego,0.3,1.89,false
+Produto:p4,iogurte,0.46,1.58,false
+Produto:p5,ovos,0.324,1.99,false
+Produto:p6,oleo de coco,0.200,2.89,false
+Produto:p7,sumo,1.0,2.99,false
+Produto:p8,fiambre,0.09,2.69,false
+Produto:p9,margarina,0.3,1.48,false
+Produto:p10,noz,0.2,2.38,false
+Produto:p11,batata,1.0,3.19,false
+Produto:p12,tomate,0.50,3.04,false
+Produto:p13,cebola,0.70,1.09,false
+Produto:p14,salada,0.255,0.98,false
+Produto:p15,couve,0.7,1.53,false
+Produto:p16,cenoura,0.8,1.36,false
+Produto:p17,alho,0.5,2.13,false
+Produto:p18,maca,0.6,1.79,false
+Produto:p19,laranja,0.7,1.38,false
+Produto:p20,alho frances,0.3,0.99,false
+Produto:p21,cogumelos,0.3,1.49,false
+Produto:p22,mirtilo,0.125,1.79,false
+Produto:p23,kiwi,1.0,1.99,false
+Produto:p24,pera,1.5,1.79,false
+Produto:p25,pernas frango,0.47,3.97,false
+Produto:p26,peito frango,0.50,6.99,false
+Produto:p27,bacalhau,0.750,8.98,false
+Produto:p28,polvo,2.50,26.34,false
+Produto:p29,ervilhas,1.0,1.53,false
+Produto:p30,batata frita congelada,1.0,1.18,false
+Produto:p31,hamburger,1.0,5.99,false
+Produto:p32,pizza,0.570,2.69,false
+Produto:p33,pasteis bacalhau,0.370,2.99,false
+Produto:p34,rissois,0.40,1.99,false
+Produto:p35,gelo,2.0,0.89,false
+Produto:p36,gelado,0.90,2.35,false
+Produto:p37,presunto,0.120,1.54,false
+Produto:p38,sopa,0.350,1.28,false
+Produto:p39,francesinha,0.450,4.98,false
+Produto:p40,lasanha,1.0,2.99,false
+Produto:p41,salmao fumado,0.14,3.99,false
+Produto:p42,natas,0.5,1.59,false
+Produto:p43,leite,1.0,0.50,false
+Produto:p44,manteiga,0.25,1.99,false
+Produto:p45,pao de forma,0.4,1.25,false
+Produto:p46,cafe soluvel,0.25,2.73,false
+Produto:p47,cereais,0.4,1.59,false
+Produto:p48,achocolatado,0.8,2.99,false
+Produto:p49,cafe,0.25,1.34,false
+Produto:p50,oreo,0.157,0.99,false
+Produto:p51,bolacha,0.8,1.19,false
+Produto:p52,nutella,0.750,4.69,false
+Produto:p53,vinho tinto 5l,5.8,4.39,false
+Produto:p54,esparguete,0.50,0.44,false
+Produto:p55,massa,0.50,1.04,false
+Produto:p56,atum,0.120,0.88,false
+Produto:p57,salsicha,0.120,0.48,false
+Produto:p58,batata frita,0.180,0.79,false
+Produto:p59,oleo,1.0,1.09,false
+Produto:p60,azeite,1.0,2.09,false
+Produto:p61,agua 5l,5.0,0.68,false
+Produto:p62,cerveja,8.0,5.68,false
+Produto:p63,vinho verde,1.5,1.79,false
+Produto:p64,acucar,1.0,0.68,false
+Produto:p65,detergente,2.3,3.49,false
+Produto:p66,rolo cozinha,0.1,1.49,false
+Produto:p67,papel higienico,1.1,8.49,false
+Produto:p68,gel banho,0.8,1.19,false
+Produto:p69,escova dentes,0.07,1.14,false
+Produto:p70,pasta dentes,0.75,4.14,false
+Produto:p71,bife porco,0.430,4.79,false
+Produto:p72,picanha,1.410,21.14,false
+Produto:p73,vitela,0.99,7.99,false
+Produto:p74,bife peru,0.63,3.99,false
+Produto:p75,bife vazia,0.25,6.00,false
+Produto:p76,sabonete,0.5,0.99,false
+Produto:p77,champo,0.25,3.89,false
+Produto:p78,desodorizante,0.25,4.69,false
+Aceite:e0
+Aceite:e1
+Aceite:e2
+Aceite:e3
+Aceite:e4
+Aceite:e5
+Aceite:e6
+Aceite:e7
+Aceite:e8
+Aceite:e9
+Aceite:e10
+Aceite:e11
+Aceite:e12
+Aceite:e13
+Aceite:e14
+Aceite:e15
+Aceite:e16
+Aceite:e17
+Aceite:e18
+Aceite:e19
+Aceite:e20
+Aceite:e21
+Aceite:e22
+Aceite:e23
+Aceite:e24
+Aceite:e25
