@@ -1,5 +1,5 @@
 # Engenharia Informática - Universidade do Minho
-Projetos realizados em diversas cadeira do curso de Engenharia Informática na Universidade do Minho.
+Projetos realizados ao longo do percurso académico na Universidade do Minho, tanto na Licenciatura, como no mestrado de Engenharia Informática.
 ## 1º Ano 
 ### - [Laboratórios Informática 2](https://github.com/pedroaf10/MIEI-Uminho/tree/main/1%C2%BA%20Ano/Laborat%C3%B3rios%20Inform%C3%A1tica%202)
 
