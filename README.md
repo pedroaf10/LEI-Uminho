@@ -1,16 +1,16 @@
 # Engenharia Informática - Universidade do Minho
 Projetos realizados ao longo do percurso académico na Universidade do Minho, tanto na Licenciatura, como no Mestrado de Engenharia Informática.
-## 1º Ano 
+## 1º Ano Licenciatura
 ### - [Laboratórios Informática II](https://github.com/pedroaf10/MIEI-Uminho/tree/main/1%C2%BA%20Ano/Laborat%C3%B3rios%20Inform%C3%A1tica%202)
 
-## 2º Ano 
+## 2º Ano Licenciatura
 ### - [Cálculo de Programas](https://github.com/pedroaf10/MIEI-Uminho/tree/main/2%C2%BA%20Ano/C%C3%A1lculo%20de%20Programas/cp2021t/cp2021t)
 ### - [Desporto e Saúde](https://github.com/pedroaf10/MIEI-Uminho/tree/main/2%C2%BA%20Ano/Desporto%20e%20Sa%C3%BAde)
 ### - [Laboratório de Informática III](https://github.com/pedroaf10/MIEI-Uminho/tree/main/2%C2%BA%20Ano/Laborat%C3%B3rio%20de%20Inform%C3%A1tica%20III)
 ### - [Programação Orientada a Objetos](https://github.com/pedroaf10/MIEI-Uminho/tree/main/2%C2%BA%20Ano/Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos)
 ### - [Sistemas Operativos](https://github.com/pedroaf10/MIEI-Uminho/tree/main/2%C2%BA%20Ano/Sistemas%20Operativos)
 
-## 3º Ano 
+## 3º Ano Licenciatura
 ### - [Base de Dados](https://github.com/pedroaf10/MIEI-Uminho/tree/main/3%C2%BA%20Ano/Base%20de%20Dados)
 ### - [Computação Gráfica](https://github.com/pedroaf10/MIEI-Uminho/tree/main/3%C2%BA%20Ano/Computa%C3%A7%C3%A3o%20Gr%C3%A1fica)
 ### - [Comunicações por Computador](https://github.com/pedroaf10/MIEI-Uminho/tree/main/3%C2%BA%20Ano/Comunica%C3%A7%C3%B5es%20por%20Computador)
