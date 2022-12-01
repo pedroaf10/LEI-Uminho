@@ -19,7 +19,7 @@ Projetos realizados ao longo do percurso académico na Universidade do Minho, ta
 ### - [Métodos Numéricos e Otimização não Linear](https://github.com/pedroaf10/MIEI-Uminho/tree/main/3%C2%BA%20Ano/M%C3%A9todos%20Num%C3%A9ricos%20e%20Otimiza%C3%A7%C3%A3o%20n%C3%A3o%20Linear)
 ### - [Processamento de Linguagens](https://github.com/pedroaf10/MIEI-Uminho/tree/main/3%C2%BA%20Ano/Processamento%20de%20Linguagens)
 ### - [Redes de Computadores](https://github.com/pedroaf10/MIEI-Uminho/tree/main/3%C2%BA%20Ano/Redes%20de%20Computadores)
-### - [Sistemas de Representação de Conhecimento e Raciocínio (Inteligência Artificial)](https://github.com/pedroaf10/MIEI-Uminho/tree/main/3%C2%BA%20Ano/Sistemas%20Distribu%C3%ADdos)
-### - [Sistemas Distribuídos](https://github.com/pedroaf10/MIEI-Uminho/tree/main/3%C2%BA%20Ano/Sistemas%20de%20Representa%C3%A7%C3%A3o%20de%20Conhecimento%20e%20Racioc%C3%ADnio)
+### - [Sistemas Distribuídos](https://github.com/pedroaf10/MIEI-Uminho/tree/main/3%C2%BA%20Ano/Sistemas%20Distribu%C3%ADdos)
+### - [Sistemas de Representação de Conhecimento e Raciocínio (Inteligência Artificial)](https://github.com/pedroaf10/MIEI-Uminho/tree/main/3%C2%BA%20Ano/Sistemas%20de%20Representa%C3%A7%C3%A3o%20de%20Conhecimento%20e%20Racioc%C3%ADnio)
 
 
